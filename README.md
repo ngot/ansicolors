@@ -1,14 +1,10 @@
-# ansicolors [![build status](https://secure.travis-ci.org/thlorenz/ansicolors.png)](http://next.travis-ci.org/thlorenz/ansicolors)
+#ansicolors 
+###modified from [ansistyles](https://github.com/thlorenz/ansicolors).
 
 Functions that surround a string with ansicolor codes so it prints in color.
 
-In case you need styles, like `bold`, have a look at [ansistyles](https://github.com/thlorenz/ansistyles).
+In case you need styles, like `bold`, have a look at [ansistyles](https://github.com/ngot/ansicolors.git).
 
-## Installation
-
-    npm install ansicolors
-
-## Usage
 
 ```js
 var colors = require('ansicolors');
@@ -52,11 +48,10 @@ console.log('close bgBlack', inspect(colors.close.bgBlack));
 
 ## Tests
 
-Look at the [tests](https://github.com/thlorenz/ansicolors/blob/master/test/ansicolors.js) to see more examples and/or run them via: 
+Look at the [tests](https://github.com/ngot/ansicolors/blob/master/test/ansicolors.js) to see more examples and/or run them via: 
 
-    npm explore ansicolors && npm test
+    js test/ansicolors.js
 
 ## Alternatives
 
 **ansicolors** tries to meet simple use cases with a very simple API. However, if you need a more powerful ansi formatting tool, 
-I'd suggest to look at the [features](https://github.com/TooTallNate/ansi.js#features) of the [ansi module](https://github.com/TooTallNate/ansi.js).
