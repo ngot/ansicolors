@@ -4,7 +4,7 @@
   "description": "Functions that surround a string with ansicolor codes so it prints in color.",
   "main": "ansicolors.js",
   "scripts": {
-    "test": "node test/*.js"
+    "test": "js test/ansicolors.js"
   },
   "repository": {
     "type": "git",
